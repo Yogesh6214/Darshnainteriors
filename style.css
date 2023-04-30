@@ -1,0 +1,67 @@
+body{
+  background-image: url(toa-heftiba-FV3GConVSss-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.containor{
+  color:  #3d5c5cs;
+  text-shadow:2px 2px 5px gray;
+  background:  linear-gradient(to right,#80ffff,#e6ffff);
+
+}
+h2{
+  font-family: Abel&family; /* google font family*/
+  color: white;
+  background: black;
+}
+.footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+/*css: Combinators*/
+ul li{
+  color: white;
+}
+ul >li{
+  color: royalblue;
+}
+
+a{           /* Text styling and formeting*/
+
+  text-decoration: none;
+  font-size: 30px
+  word-speacing: 30px
+  color: yellow;
+  text-transform: capitalize;
+}
+.formeting{
+  font-size: 25px;
+  line-height: 2em;
+  color: white;
+}
+.bordring{                 /* CSS Image*/
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #add;
+  padding: 5px;
+  opacity: 0.2;
+  display: block;
+  margin: auto;
+}
+
+button{
+  color: white;
+  background: red;
+  border-radius: 12px;
+  border: none;
+  font-size: 20px;
+  padding: 10px 10px;
+}
